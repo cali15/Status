@@ -8,7 +8,7 @@ WORKDIR Status
 
 # Setup base
 ARG BUILD_ARCH=amd64
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 CMD [ "python3", "./status.py" ]
 
