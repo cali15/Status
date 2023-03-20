@@ -1,7 +1,5 @@
 .github
 screenshots
-**/Dockerfile
 **/.README.md
 **/.LICENSE
 **/.dockerignore
-**/.gitinore
