@@ -20,9 +20,9 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
     - name: Build and push
-        uses: docker/build-push-action@v4
-        with:
-          push: true
-          tags: user/app:latest
+      uses: docker/build-push-action@v4
+      with:
+        push: true
+        tags: user/app:latest
       env:
         CAS_API_KEY: ${{ secrets.CAS_TOKEN }}
