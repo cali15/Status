@@ -1,0 +1,20 @@
+{
+  "server": {
+    "port": 9000,
+    "bind_address": "0.0.0.0",
+    "domain": null,
+    "tls_cert_path": null,
+    "tls_key_path": null
+  },
+  "machine": {
+    "network_interface": "auto",
+    "hwmon_sensor": "coretemp",
+    "auto_fs": false,
+    "disks": {
+      "Primary": ["/", "folder", "#F66"]
+    }
+  },
+  "misc": {
+    "aiohttp_quiet": true
+  }
+}
