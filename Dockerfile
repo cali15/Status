@@ -2,9 +2,9 @@ ARG BUILD_FROM=python:3-alpine
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
-COPY . .
-
 WORKDIR Status
+
+COPY . .
 
 # Setup base
 ARG BUILD_ARCH=amd64
